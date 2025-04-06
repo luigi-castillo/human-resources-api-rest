@@ -1,0 +1,5 @@
+Django==5.2
+djangorestframework==3.16.0
+psycopg2==2.9.10
+boto3==1.37.28
+aws-secretsmanager-caching==1.1.3
