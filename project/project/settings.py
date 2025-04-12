@@ -79,10 +79,10 @@ sec_man = SecretsManager()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'human_resources',
+        'NAME': 'hr',
         'USER': sec_man.get_secret("username"),
         'PASSWORD': sec_man.get_secret("password"),
-        'HOST': 'database-1.cluster-c4vgsmiy21b7.us-east-1.rds.amazonaws.com',
+        'HOST': 'hr.c4vgsmiy21b7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }

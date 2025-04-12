@@ -4,7 +4,7 @@ import json
 
 class SecretsManager:
     def __init__(self):
-        secret_name = "rds!cluster-0e02b8cf-44a6-4cd8-8c58-26706dcba261"
+        secret_name = "rds!db-65157538-412e-4808-9ce1-9fb40349c784"
         region_name = "us-east-1"
 
         session = boto3.session.Session()
